@@ -2,14 +2,12 @@
 <html>
 <head>
   <meta charset="UTF-8"/>
-  <title></title>
+  <title>Tea Cozy</title>
    <link rel="stylesheet" href="./resources/teacozy.css" type="text/css" />
 </head>
 <!-- Header Section-->
-<header>
- <div class="header-logo">
-   < img src ="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png">
-</div>
+<header class="flex-container">
+   <img src ="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png">
     <nav>
     	<span><a href="#Mission">Mission</a></span>
     	<span><a href="#FeaturedTea">Featured Tea</a></span>
@@ -19,8 +17,10 @@
 <body>
 <!--Mission Statement -->
   <div id="Mission" class="flex-container">
+    <div class ="missioncontent">
     <h2>Our Mission</h2>
     <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea </h4>
+      </div>
   </div>
 <!--Tea of the Month Section -->
 <div id="FeaturedTea">
@@ -32,8 +32,9 @@
           <span>Fal Berry Blitz Tea</span>
       </div>
       <div class="tea_item"> 
-          <img src ="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg"></div>
+          <img src ="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg">
           <span>Spiced Rum Tea</span>
+      </div>
       <div class="tea_item"> 
           <img src ="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg">
          <span>Seasoned Donuts</span>
@@ -51,18 +52,19 @@
 <!-- Store Locations -->
     <div id="Locations">
         <h2>Locations</h2>
-          <div class="flex-container store_locations">
+          <div class="flex-container store_location">
             <div class="store_locations">
                <h3>Downtown</h3>
                   <p>384 West 4th St</p>
                   <p>Suite 108</p>
                   <p>Portland, Maine</p>
             </div>
-            <div class="store_locations"></div>
+            <div class="store_locations">
               <h3>East Bayside</h3>
                    <p>3433 Phisherman's Avenue</p>
                    <p>(Northwest Corner)</p>
                    <p>Portland, Maine</p>
+              </div>
             <div class="store_locations">
                <h3>Oakdale</h3>
                    <p>515 Crescent Avenue</p>
